@@ -11,3 +11,4 @@ for s1 in range(1, n + 1):
                     result += ('' + str(s1) + str(s2) 
                                   + str(s3) + str(s4) 
                                   + str(s5 + ''))
+print(result.strip())
