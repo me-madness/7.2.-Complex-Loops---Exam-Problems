@@ -7,5 +7,7 @@ for a in range(1, 10):
                 for e in range(1, 10):
                     for f in range(1, 10):
                         if a * b * c * d * e * f == n:
-                            result += 
+                            result += ('' + str(a) + str(b) 
+                                          + str(c) + str(d) 
+                                          + str(e) + str(f) + '')
 print(result)
