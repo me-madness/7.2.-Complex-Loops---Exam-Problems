@@ -24,4 +24,9 @@ while a <= 9:
         while c <= 9:
             d = 1
             while d <= 9:
-                
+                e = 1
+                while e <= 9:
+                    f = 1
+                    while f <= 9:
+                        if a * b * c *d * e * f == n:
+                            
